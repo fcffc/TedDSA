@@ -36,7 +36,7 @@ public class MemberController {
 	public void register() throws Exception {
 		try {
 			memberRegistration.register(newMember);
-			FacesMessage m = new FacesMessage(FacesMessage.SEVERITY_INFO, "Registered!", "Registration successful");
+			FacesMessage m = new FacesMessage(FacesMessage.SEVERITY_INFO, "Registrado com sucesso.", "Registration successful");
 			facesContext.addMessage(null, m);
 			initNewMember();
 		} catch (Exception e) {
