@@ -1,2 +1,2 @@
 -- You can use this file to load seed data into the database using SQL statements
-insert into Member (id, name, email, phone_number) values (1, 'Fernanda Ferreira', 'fernanda.ferreira@sigma.com.br', '65993403434') 
+insert into Member (id, name, email, phone_number) values (0, 'Fernanda Ferreira', 'fernanda.ferreira@sigma.com.br', '65993403434') 
